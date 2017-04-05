@@ -5,9 +5,9 @@ and using it badly.
 flatten.py
 ---
 
-# git clone hg::...jdk9
-# for each submodule, git submodule add that into this repo
-# destory the .gitmodules file (i.e don't commit anything)
+ 1. git clone hg::...jdk9
+ 2. for each submodule, git submodule add that into this repo
+ 3. destory the .gitmodules file (i.e don't commit anything)
 
 This leaves you with a super weird git repo:
 
