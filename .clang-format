@@ -1,0 +1,19 @@
+BasedOnStyle: LLVM
+
+# don't know what this is going to break for now
+SortIncludes: false
+
+# "Right" in 81% of \w+..\w+ cases, but breaks with align declarations
+#PointerAlignment: Left
+#AlignConsecutiveDeclarations: true
+
+# the only built-in style with function braces on the same line is Attach
+#BreakBeforeBraces: Attach
+
+#BraceWrapping:
+#  AfterFunction:   false
+
+AllowShortBlocksOnASingleLine: true
+AllowShortCaseLabelsOnASingleLine: true
+
+IndentWidth: 4
